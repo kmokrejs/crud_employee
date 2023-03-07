@@ -1,0 +1,84 @@
+.wrapper_info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper_info label{
+  margin-top: 20px;
+}
+
+.wrapper_info input{
+  display: flex;
+  width: 50%;
+  height: 20px;
+  padding-left: 10px;
+}
+
+button{
+  margin-top: 15px;
+  width: 150px;
+  height: 20px;
+}
+
+button:hover {
+  background-color: rgb(1, 1, 1);
+  border: none;
+  color: white;
+  cursor: pointer;
+
+}
+
+.showEmp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.showEmp button{
+  margin: 0;
+}
+
+.empList{
+  display: flex;
+  flex-direction: column;
+}
+
+.empList .oneEmployee .infoBasic p{
+  margin: 10px 10px 10px 10px;
+  text-align: left;
+}
+
+.empList .oneEmployee .infoBasic h4{
+  margin: 10px 10px 10px 10px;
+  text-align: left;
+}
+
+.empList .oneEmployee .moreInfo p{
+  margin: 10px 10px 10px 10px;
+  text-align: right;
+}
+
+.oneEmployee {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  margin-top: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.empList .oneEmployee .moreInfo{
+  display: flex;
+  flex-direction: column;
+}
+
+.empList .oneEmployee .infoBasic{
+  display: flex;
+  flex-direction: column;
+}
+
+.update{
+  display: flex;
+  flex-direction: column;
+}
